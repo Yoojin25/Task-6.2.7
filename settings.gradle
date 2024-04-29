@@ -1,2 +1,4 @@
 rootProject.name = 'Task-6.2.7'
+include 'src:untitled'
+findProject(':src:untitled')?.name = 'untitled'
 
